@@ -6,6 +6,7 @@ public class Mandelbrot {
 	private Complex complexConstant = new Complex(0, 0);
 	private Fractal selectedFractal = Fractal.MANDELBROT;
 
+	
 	/**
 	 * gibt an ob komplexe zahl c kleiner als 2 bleibt oder nicht.
 	 * 

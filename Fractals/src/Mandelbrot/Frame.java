@@ -24,7 +24,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 @SuppressWarnings("serial")
-public class Frame extends JFrame {
+public class Frame extends JFrame {  
 	
 	Image img = new ImageIcon("Icon.png").getImage();
 	FractalContainer fractalContainer = new FractalContainer();

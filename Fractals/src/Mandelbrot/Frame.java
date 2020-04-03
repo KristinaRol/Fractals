@@ -30,7 +30,7 @@ public class Frame extends JFrame {
 	FractalContainer fractalContainer = new FractalContainer();
 	public static final int WIDTH = 1010;
 
-	// needed arrays for combobox
+	// needed arrays for combobox  
 	String[] fractalSelection = { "Mandelbrot", "Julia-Fraktal" };
 	StartValue[] startValues = StartValue.values();
 

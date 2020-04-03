@@ -34,7 +34,7 @@ public class Frame extends JFrame {
 	String[] fractalSelection = { "Mandelbrot", "Julia-Fraktal" };
 	StartValue[] startValues = StartValue.values();
 
-	// bottom panel stuff
+	// bottom panel stuff  
 	JComboBox<String> fractalSelectionBox = new JComboBox<String>(fractalSelection);
 	JTextField iterationTextField = new JTextField(fractalContainer.mandelbrot.getIterations() + " ");
 	JSlider zoomSlider = new JSlider(1, 6, 1);

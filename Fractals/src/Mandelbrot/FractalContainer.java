@@ -11,7 +11,7 @@ public class FractalContainer extends JPanel {
 
 	public Color innerColor = Color.black;
 	/** obere linke und untere rechte ecke **/
-	private Complex[] complexBounds;
+	private Complex[] complexBounds;  
 	Mandelbrot mandelbrot;
 	private double zoom = 1;
 	private Complex dragged = new Complex(0, 0);
